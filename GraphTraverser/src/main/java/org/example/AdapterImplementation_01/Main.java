@@ -9,7 +9,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         // Create a graph
-        GraphAdapter<Integer, String> graph = new JungAdapter();
+        GraphAdapter<Integer, String> graph = new Adapter();
 
         // Add vertices (using Integer nodes)
         graph.addVertex(1);

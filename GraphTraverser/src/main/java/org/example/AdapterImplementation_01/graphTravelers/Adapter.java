@@ -5,10 +5,10 @@ import edu.uci.ics.jung.graph.SparseMultigraph;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class JungAdapter implements GraphAdapter<Integer, String> {
+public class Adapter implements GraphAdapter<Integer, String> {
     private final SparseMultigraph<Integer, String> graph;
 
-    public JungAdapter() {
+    public Adapter() {
         this.graph = new SparseMultigraph<>();
     }
 
