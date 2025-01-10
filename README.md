@@ -25,7 +25,9 @@
 یک اینترفیس به نام Traverser تعریف شده که متدی با امضای traverse(Integer startVertex) را مشخص می‌کند. این اینترفیس نقش استراتژی اصلی را دارد و الگوریتم‌های مختلف باید آن را پیاده‌سازی کنند.
 
 public interface Traverser {
+
     List<Integer> traverse(Integer startVertex);
+    
 }
 
 
@@ -45,9 +47,13 @@ public interface Traverser {
 
 
 Traverser dfsGraphTraveler = new DfsGraphTraverser(graph);
+
 Traverser bfsGraphTraveler = new BfsGraphTraverser(graph);
 
 List<Integer> dfsPath = dfsGraphTraveler.traverse(1);
+
 List<Integer> bfsTraveler = bfsGraphTraveler.traverse(1);
+
+
 
 
