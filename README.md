@@ -1,5 +1,6 @@
 # Software-Engineering-Lab-EX8
-
+**لینک کانبان برد: https://github.com/users/DnyaNvB/projects/7/views/1
+**
 # بخش اول - پیاده سازی الگوی Adapter:
 
 ## زیربخش اول - انتخاب نوع Adapter :
